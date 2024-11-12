@@ -86,7 +86,7 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/BikerHUB.git
+git clone [https://github.com/yourusername/BikerHUB](https://github.com/wahidpanda/Biker-HUB-Full-Stack-website-development-project).git
 Navigate to the project folder:
 bash
 Copy code
@@ -101,7 +101,8 @@ Accessories: Explore and purchase bike-related accessories.
 Footer: Use the footer to find contact information, social media links, and subscribe to the newsletter.
 Project Structure
 plaintext
-Copy code
+
+"""
 BikerHUB/
 │
 ├── index.html              # Homepage with full-cover slider
@@ -117,7 +118,7 @@ BikerHUB/
 │   └── twitter-icon.png
 ├── styles.css              # Main CSS file for styling
 └── README.md               # Project README file
-
+"""
 
 #Contributing
 -Fork the project.
