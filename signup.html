@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - BikerHUB</title>
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Full-page background image */
+        body {
+            background-image: url('https://www.baltana.com/files/wallpapers-26/Wheeling-Motocross-Bike-Stunt-HD-Wallpapers-83829.jpg'); /* Replace with the actual path to your image */
+            background-size: cover; /* Ensures the image covers the entire viewport */
+            background-repeat: no-repeat; /* Prevents repetition of the image */
+            background-position: center; /* Centers the image */
+            font-family: Arial, sans-serif;
+            color: white;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden; /* Prevents scrolling */
+        }
+
+        /* Right-aligned navbar */
+        .navbar {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            position: fixed; /* Keeps navbar fixed at the top */
+            top: 0;
+            width: 100%;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 1rem;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Logo styling */
+        .logo {
+            margin-right: auto;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        /* Centered sign-up form box */
+        .form-container {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+            padding: 40px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .form-container h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .form-container label {
+            display: block;
+            text-align: left;
+            margin: 10px 0 5px;
+        }
+
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #f05a28; /* Button color */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #e14b1a;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="index.html" class="logo">BikerHUB</a>
+        <a href="index.html">Home</a>
+        <a href="bikes.html">Bikes</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="login.html">Login</a>
+    </div>
+
+    <!-- Sign-Up Page Content -->
+    <div class="form-container">
+        <h1>Sign Up</h1>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
